@@ -1,7 +1,7 @@
 const std = @import("std");
 
 pub fn day1_sol() !void {
-    var file = try std.fs.cwd().openFile("input.txt", .{});
+    var file = try std.fs.cwd().openFile("../input.txt", .{});
     defer file.close();
 
     var gpa = std.heap.GeneralPurposeAllocator(.{}){};
