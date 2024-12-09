@@ -5,6 +5,6 @@ import (
 )
 
 func main(){
-    solutions.Day8()
+    solutions.Day9()
 }
 
